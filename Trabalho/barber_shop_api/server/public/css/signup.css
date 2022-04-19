@@ -1,0 +1,89 @@
+.input-box {
+    background-color: #111111;
+    width: 324px;
+    border-radius: 20px;
+    height: 336px;
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    justify-self: center;
+    margin-top: 100px;
+
+}
+
+header h1 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+body {
+    background-image: url("../img/barber-5194406_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.input-box .line-div {
+    position: relative;
+    width: 120px;
+    height: 6px;
+
+    color: orange;
+    background-color: orange;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-self: center;
+    
+    
+    
+}
+.input-box p {
+    color: orange;
+    font-family: sans-serif;
+    margin: 5px;
+
+    font-weight: bold;
+    
+    
+}
+
+.center-input-box  {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+    
+    
+}
+
+.fields {
+   align-self: center;
+   justify-self: center
+
+}
+
+.input-box button {
+    position: relative;
+    margin-top: 14px;
+
+    width: auto;
+    align-self: center;
+    justify-self: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: orange;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.text 
+{
+    border-radius: 5px;
+}
